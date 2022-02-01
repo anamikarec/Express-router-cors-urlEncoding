@@ -1,22 +1,22 @@
 const Users=[
     {
         id: 1,
-        name: "Anamika",
+        name: "Amar",
         active: true
     },
     {
         id: 2,
-        name: "Albert",
+        name: "Akbar",
         active: true
     },
     {
         id: 3,
-        name: "Sneha",
+        name: "Anthoni",
         active: true
     },
     {
         id: 4,
-        name: "Arjun",
+        name: "dana-pani",
         active: true
     }
 ]
