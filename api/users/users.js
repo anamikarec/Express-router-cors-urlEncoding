@@ -8,8 +8,6 @@ router.get("/",(req,res)=>{
 })
 
 router.get("/:userid",(req,res)=>{
-    // console.log(user);
-    // const user = Users.find(user=> user.id===req.params.userid);
     const user = Users.find(user => {
        return (Number(user.id) === Number(req.params.userid));
     });
